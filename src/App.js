@@ -45,17 +45,7 @@ function App() {
 
       <Navbar order={Order} grouping={Grouping} setGroupingValue={setGroupingValue} setOrderingValue={setOrderingValue}></Navbar>
       {content}
-      {/* <Router>
-        <Navbar order={Order} grouping={Grouping}></Navbar>
-        <Routes>
-
-
-          <Route path='/' element={<Status />} />
-          <Route path='/user' element={<Byuser />} />
-          <Route path='/priority' element={<Priority />} />
-
-        </Routes>
-      </Router> */}
+      {}
 
     </div>
   );

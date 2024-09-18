@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import Button from './button.js'
+
 import './Status.css'
 import optionsimg from './options.png'
 import Dropdown from './Dropdown.js'
@@ -30,21 +30,6 @@ function Navbar( props) {
         document.removeEventListener('mousedown', closeDropdown);
       };
     }, [Opendrop]);
-  
-    // useEffect(() => {
-    //   const closeDropdown = (event) => {
-    //     if (Opendrop && !event.target.closest('.dropdown-container')) {
-    //       // Click occurred outside the dropdown, so close it
-    //       setOpendrop(false);
-    //     }
-    //   };
-  
-    //   document.addEventListener('mousedown', closeDropdown);
-  
-    //   return () => {
-    //     document.removeEventListener('mousedown', closeDropdown);
-    //   };
-    // }, [Opendrop]);
 
 
     return (

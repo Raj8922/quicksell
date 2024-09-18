@@ -4,12 +4,12 @@
     flex-direction: column;
     width: 16vw;
     justify-content: left;
-    padding: 16px 12px;
+    padding: 13px 10px;
     background-color: #ffffff;
     border-radius: 8px;
     gap: 8px;
     /* box-shadow: #000000; */
-    filter: drop-shadow(0px 1px 3px rgba(189, 189, 189, 0.434));
+    filter: drop-shadow(0px 1px 3px rgba(145, 141, 141, 0.434));
     min-width: 200px;
     /* width:-webkit-fill-available; */
 
